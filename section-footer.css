@@ -151,3 +151,40 @@ footer {
 .select-len option {
   background-color: transparent;
 }
+
+
+@media (max-width: 570px) {
+  .fs-sm-3 {
+    font-size: 1.2em;
+  }
+  .fs-sm-5 {
+    font-size: .8em;
+  }
+  .fd-sm-column {
+    flex-direction: column;
+  }
+  .mb-sm-4 {
+    margin-bottom: 2em;
+  }
+  .align-self-sm-center {
+    align-self: center;
+  }
+  .flex-sm-wrap {
+    flex-wrap: wrap;
+  }
+  .justify-content-sm-between {
+    justify-content: space-between;
+  }
+  .flex-sm-01 {
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  #preguntas .pregunta {
+    min-width: 320px;
+  }
+}
