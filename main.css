@@ -27,19 +27,27 @@
   transform: translate(-40%, -100%);
 }
 
+.SignIn {
+  background-color: rgb(209, 64, 64);
+  color: #fff;
+  justify-content: end;
+}
+
 .heading-primary {
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .heading-primary-second {
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 100;
 }
 
 .heading-primary-third {
   color: #fff;
-  font-size: 30px;
+  font-size: 10px;
   font-weight: 100;
 }
 
